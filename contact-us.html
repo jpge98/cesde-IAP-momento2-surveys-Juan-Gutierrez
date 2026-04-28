@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Contacto</h1>
+</header>
+
+<main>
+    
+    <form>
+
+        <section>
+            <article>
+                <label for="name">Nombre:</label>
+                <input type="text" required>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <label for="email">Correo:</label>
+                <input type="email" required>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <p>Nivel académico:</p>
+                <label><input type="radio" name="user"> Bachiller</label>
+                <label><input type="radio" name="user"> Técnico</label>
+                <label><input type="radio" name="user"> Tecnólogo</label>
+                <label><input type="radio" name="user"> Profesional</label>
+                <label><input type="radio" name="user"> Otro</label>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <p>Situación laboral:</p>
+                <label><input type="checkbox"> Desempleado</label>
+                <label><input type="checkbox"> Asalariado</label>
+                <label><input type="checkbox"> Otro</label>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <label for="topic">Pais:</label>
+                <select id="topic">
+                    <option>Colombia</option>
+                    <option>Chile</option>
+                    <option>Ecuador</option>
+                    <option>Argentina</option>
+                    <option>otro</option>
+                </select>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <label for="message">Mensaje:</label>
+                <textarea id="message"></textarea>
+            </article>
+        </section>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</main>
+
+
+</body>
+</html>
